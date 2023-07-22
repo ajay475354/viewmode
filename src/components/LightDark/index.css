@@ -1,0 +1,48 @@
+.black_card_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+.white_card_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  border-color: black;
+  border: solid 5px black;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 30px;
+
+  font-weight: 600;
+}
+.button_light {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button_dark {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
